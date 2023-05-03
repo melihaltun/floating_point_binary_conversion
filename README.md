@@ -8,6 +8,9 @@ float2binary.m converts a floating number to its binary string representation as
 binary2float.m converts a single precision, double precision or arbitrary size bit string back to a floating number. 
 
 
+Here are some use cases:
+
+
 % pi as single precision (32 bits):
 
 float2binary(pi)
