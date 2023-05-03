@@ -27,7 +27,7 @@ ans =
     '0100000000001001001000011111101101010100010001000010110100011000'
 
 
-% pi as arbitrarily selected 10 bit exponent and 28 bit mantissa digits (39 bits)
+% pi as arbitrarily selected 10 bit exponent and 28 bit mantissa digits (+1 sign = 39 bits)
 
 float2binary(pi, 10, 28)
 
