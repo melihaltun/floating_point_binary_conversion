@@ -1,5 +1,5 @@
 # float_binary_conversion
-Pair functions to convert a floating number to single, double precision or arbitrary size bit representation and convert a single, double or arbitrary size bit string into a number. 
+Pair functions to convert a floating number to single precision, double precision, or arbitrary size bit representation and convert a single, double or arbitrary size bit string back into a number. 
 
 This repository contains 2 Matlab functions:
 
