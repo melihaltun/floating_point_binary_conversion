@@ -10,7 +10,7 @@ binary2float.m converts a single precision, double precision or arbitrary size b
 
 % pi as single precision (32 bits):
 
->>float2binary(pi)
+float2binary(pi)
 
 ans =
     '01000000010010010000111111011010'
@@ -18,7 +18,7 @@ ans =
 
 % pi as double precision (64 bits):
 
->>float2binary(pi,'d')
+float2binary(pi,'d')
 
 ans =
     '0100000000001001001000011111101101010100010001000010110100011000'
@@ -26,7 +26,7 @@ ans =
 
 % pi as arbitrarily selected 10 bit exponent and 28 bit mantissa digits (39 bits)
 
->>float2binary(pi, 10, 28)
+float2binary(pi, 10, 28)
 
 ans =
     '010000000001001001000011111101101010100'
@@ -34,7 +34,7 @@ ans =
 
 % convert single precision bit string back to a number    
 
->>binary2float('01000000010010010000111111011010')
+binary2float('01000000010010010000111111011010')
 
 ans =
           3.14159250259399
@@ -42,7 +42,7 @@ ans =
 
 % convert double precision bit string back to a number  
 
->>binary2float('0100000000001001001000011111101101010100010001000010110100011000', 'd')
+binary2float('0100000000001001001000011111101101010100010001000010110100011000', 'd')
 
 ans =
           3.14159265358979
@@ -50,7 +50,7 @@ ans =
 
 % convert arbitrary size exponent and mantissa bit string back to a number  
 
->>binary2float('010000000001001001000011111101101010100', 10, 28)
+binary2float('010000000001001001000011111101101010100', 10, 28)
 
 ans =
           3.14159265160561
