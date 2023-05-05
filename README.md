@@ -11,7 +11,7 @@ binary2float.m converts a single precision, double precision or arbitrary size b
 Here are some use cases:
 
 
-% pi as single precision (32 bits):
+% pi as single precision (32 bits: 1 sign, 8 exponent, 23 mantissa):
 
 float2binary(pi)
 
@@ -19,7 +19,7 @@ ans =
     '01000000010010010000111111011010'
 
 
-% pi as double precision (64 bits):
+% pi as double precision (64 bits: 1 sign, 11 exponent, 52 mantissa):
 
 float2binary(pi,'d')
 
